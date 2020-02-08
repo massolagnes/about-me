@@ -9,6 +9,32 @@ body {
       footer {
         padding: 10px 15px; /* enlever l'espace par défaut */
       }
+      
+#barrenav{
+  margin: 10px;
+  padding: 40px;
+  height: 50px;
+}
+#nav-about {
+   margin:30px;
+   padding:20px;
+   text-align: center;
+   background-color: rgb(235, 199, 123);
+}
+#nav-loves {
+   margin:30px;
+   padding:20px;
+   text-align: center;
+   background-color: rgb(228, 181, 82);
+}
+#nav-contact {
+   margin:30px;
+   padding:20px;
+   text-align: center;
+   background-color: rgb(223, 165, 39);
+}
+
+ 
 p{font-size: 18px; font-family: 'Arial', sans-serif;
 line-height: 15px; /* interligne du paragraphe */
 }
@@ -32,7 +58,7 @@ img.profile{
 h1 {font-size: 75px ;
 }
 
-h1.title {font-family: 'Arial', sans-serif;}
+h1.title {font-family: 'Arial', sans-serif; text-align: left;}
 
 h2 {font-size: 32px;
 }
@@ -46,9 +72,9 @@ a {color: #342481;
   }
 p{color: rgb(39, 38, 38);}
 
-.title {font-family: Verdana, Geneva, Tahoma, sans-serif;color: sandybrown;
+.title {font-family: Verdana, Geneva, Tahoma, sans-serif;color: rgb(244, 155, 96); text-align: center;
 }
-.soustitre {font-family: Arial, Helvetica, sans-serif;color: rgb(117, 11, 34);
+.soustitre {font-family: Arial, Helvetica, sans-serif;color: rgb(228, 153, 118);
 }
 
 img.insta {border-radius: 50%;width: 100px;}
@@ -62,5 +88,35 @@ img.sushi {border-radius: 50%;width: 100px;}
 
 a:hover{color: rgb(122, 35, 3);}
 
+.flex-container {
 
-        
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-contact{
+  list-style: none;
+  display: flex;
+  width: 500px;
+  height: 120px;
+  padding: 0%;
+  margin: 1%;
+}
+  
+
+
+
+
+
+ul { 
+	padding: 0px; 
+	margin: 0px;
+	left: 0%;
+	position: relative;
+}
+ul li {
+	display: block;
+	float: left;
+	padding: 0px 10px;
+	margin: 0px;}
