@@ -1,61 +1,83 @@
 
 body {
     background-color: rgb(2, 26, 29);
-        margin: 10px; /* enlever l'espace par défaut */
-        padding: 30px;  /* enlever l'espace par défaut */
+        margin: 120px; /* enlever l'espace par défaut */
+        margin-top: -100px;
+        padding: 10px;  /* enlever l'espace par défaut */
       }
       header,
       section,
       footer {
-        padding: 10px 15px; /* enlever l'espace par défaut */
+        padding-top: 40px; /* enlever l'espace par défaut */
+        margin-top: 40px;
+        border-radius: 30px;
       }
       
 #barrenav{
-  margin: 10px;
-  padding: 40px;
-  height: 50px;
+  margin: 30px;
+  padding-top: 10px;
+  padding-bottom: 140px;
+  padding-left: 130px;
 }
 #nav-about {
    margin:30px;
    padding:20px;
    text-align: center;
    background-color: rgb(235, 199, 123);
+   border-radius: 50px;
+   font-family: Arial, Helvetica, sans-serif; font-weight: bold;
+   box-shadow: 2px 1px 20px 1px rgb(3, 49, 63);
 }
 #nav-loves {
    margin:30px;
    padding:20px;
    text-align: center;
-   background-color: rgb(228, 181, 82);
+   background-color: rgb(235, 199, 123);
+   border-radius: 50px;
+  font-family: Arial, Helvetica, sans-serif; font-weight: bold;
+  box-shadow: 2px 1px 20px 1px rgb(3, 49, 63);
 }
 #nav-contact {
    margin:30px;
    padding:20px;
    text-align: center;
-   background-color: rgb(223, 165, 39);
+   background-color: rgb(235, 199, 123);
+   border-radius: 50px;
+  font-family: Arial, Helvetica, sans-serif; font-weight: bold;
+  box-shadow: 2px 1px 20px 1px rgb(3, 49, 63);
 }
 
- 
+a{text-decoration: none;}
+
 p{font-size: 18px; font-family: 'Arial', sans-serif;
-line-height: 15px; /* interligne du paragraphe */
+line-height: 20px; /* interligne du paragraphe */
 }
 
 img.profile{
-  float: right;;
+  float: inline-end; box-shadow: 5px 5px 30px 1px rgb(3, 49, 63);
 }
 
 #Apropos
 {background-color: rgb(12, 154, 197);
+  padding-left: 100px; padding-right: 100px; padding-bottom: 170px; padding-top: 10px;
 }
 
 #loves
 {background-color: rgb(6, 111, 143);
+  padding-left: 100px; padding-right: 150px; padding-bottom: 30px;
+}
+
+#reseaux
+{background-color: rgb(6, 90, 116) ;
+padding-left: 100px; padding-right: 100px; padding-bottom: 50px;
 }
 
 #contact
-{background-color: rgb(2, 88, 114);
+{background-color: rgb(235, 199, 123);
+  padding-left: 100px; padding-right: 100px; padding-bottom: 30px;
 }
 
-h1 {font-size: 75px ;
+h1 {font-size: 75px ; line-height: 20px;
 }
 
 h1.title {font-family: 'Arial', sans-serif; text-align: left;}
@@ -63,9 +85,10 @@ h1.title {font-family: 'Arial', sans-serif; text-align: left;}
 h2 {font-size: 32px;
 }
 
-h3 {color: rgb(39, 38, 38);}
+h3 {color: rgb(39, 38, 38);font-family: Arial, sans-serif; font-weight: bold;}
 
 h6 {color: chocolate; font-size: 30px; font-family: Georgia, 'Times New Roman', Times, serif; text-align: center;
+  
 }
 
 a {color: #342481;
@@ -75,6 +98,8 @@ p{color: rgb(39, 38, 38);}
 .title {font-family: Verdana, Geneva, Tahoma, sans-serif;color: rgb(244, 155, 96); text-align: center;
 }
 .soustitre {font-family: Arial, Helvetica, sans-serif;color: rgb(228, 153, 118);
+}
+.soustitre2 {font-family: Arial, sans-serif;color: rgb(228, 153, 118); font-weight: lighter; font-size: 25px;
 }
 
 img.insta {border-radius: 50%;width: 100px;}
@@ -86,6 +111,7 @@ img.ceviche {border-radius: 50%;width: 100px;}
 img.sushi {border-radius: 50%;width: 100px;}
 
 
+
 a:hover{color: rgb(122, 35, 3);}
 
 .flex-container {
@@ -93,6 +119,8 @@ a:hover{color: rgb(122, 35, 3);}
   list-style: none;
   display: flex;
   justify-content: space-between;
+  margin: 10px;
+  
 }
 
 .flex-contact{
