@@ -7,8 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Page perso</title>
-    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
     <!--pour pouvoir utiliser Google Font-->
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+
     <link rel="stylesheet" href="style/style.css">
 </head>
 <header>
@@ -22,8 +23,8 @@
         <!-- barre de navigation -->
         <section id=barrenav>
             <ul class="flex-nav">
-                <li id="nav-about"><a href="#Apropos">A propos</a></li>
-                <li id="nav-loves"><a href="#loves">Mes trucs préférées</a></li>
+                <li id="nav-about"><a href="#Apropos">Présentation</a></li>
+                <li id="nav-loves"><a href="#loves">J'aime</a></li>
                 <li id="nav-contact"><a href="#contact">Contact</a></li>
             </ul>
         </section>
@@ -40,20 +41,41 @@
     <!-- Section "Mes choses préférées" -->
     <section id="loves">
 
-        <h2 class="soustitre">Mes trucs préférés</h2>
-        <h3>Jouer aux cartes</h3>
-        <img src="image/cartes.png" height="10%" width="10%" alt="carte 3 de coeur">
-        <img src="image/Carte 1.png" height="10%" width="10%" alt="carte 5 de pique">
-        <img src="image/Carte 2.png" height="10%" width="10%" alt="carte 4 de carreau">
-        <img src="image/Carte 4.png" height="10%" width="10%" alt="carte 2 de trefle">
-        <img src="image/dame.png" height="10%" width="10%" alt="carte dame de coeur">
-        <h3> Ecouter Air</h3>
-        <img src="image/music.png" height="30%" width="30%" alt="affiche du groupe de musique air">
+        <h2 class="soustitre">J'aime...</h2>
+        <div>
+            <ul class="flex-container">
+                <ul>
+                    <h3>Jouer aux cartes</h3>
+                    <ul class="flex-container">
+                        <ul>
+                            <div><img src="image/Carte 1.png" height="110%" width="110%" alt="carte 5 de pique"></div>
+                            <div><img src="image/Carte 2.png" height="110%" width="110%" alt="carte 4 de carreau"></div>
+                        </ul>
 
+
+                        <li>
+                            <div><img src="image/Carte 4.png" height="110%" width="110%" alt="carte 2 de trefle"></div>
+                            <div><img src="image/dame.png" height="110%" width="110%" alt="carte dame de coeur"></div>
+                        </li>
+                    </ul>
+                </ul>
+
+                <li>
+                    <h3> Ecouter Air</h3>
+                    <ul class="flex-container">
+                        <li>
+                            <div><img src="image/music.png" height="70%" width="70%"
+                                    alt="affiche du groupe de musique air">
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
         <div>
             <ul class="flex-container">
                 <li>
-                    <h2 class="soustitre">Mes animaux préférés</h2>
+                    <h2 class="soustitre2">Animaux préférés</h2>
                     <ul class="flex-container">
                         <li>
                             <h3>Les chats</h3>
@@ -69,7 +91,7 @@
                     </ul>
                 </li>
                 <li>
-                    <h2 class="soustitre">Mes plats préférés</h2>
+                    <h2 class="soustitre2">Plats préférés</h2>
                     <ul class="flex-container">
                         <li>
                             <h3>Le ceviche</h3>
@@ -86,7 +108,9 @@
                 </li>
             </ul>
         </div>
-
+    </section>
+    <!--  reseaux -->
+    <section id=reseaux>
         <h2 class="soustitre">Réseaux</h2>
 
         <ul class="flex-contact">
@@ -108,10 +132,11 @@
     </section>
 </body>
 <!--  footer & contact info -->
-<footer id="contact"> Envoyer un mail :
-    <a href="mailto:massolagnes@gmail.com">massolagnes@gmail.com
+<footer id="contact">
+    <p>M'écrire :
+        <a href="mailto:massolagnes@gmail.com">massolagnes@gmail.com
 
-    </a>
+        </a></p>
 </footer>
 
 </html>
