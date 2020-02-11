@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Page perso</title>
+    <title>Agnès Massol</title>
     <!--pour pouvoir utiliser Google Font-->
     <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
 
@@ -17,17 +17,17 @@
 </header>
 
 <body>
+    <!-- section "barre de navigation" -->
+    <section id=barrenav>
+        <ul class="flex-nav">
+            <li id="nav-about"><a href="#Apropos">Présentation</a></li>
+            <li id="nav-loves"><a href="#loves">J'aime</a></li>
+            <li id="nav-contact"><a href="#contact">Contact</a></li>
+        </ul>
+    </section>
+
     <!-- section "A propos de moi" -->
     <section id="Apropos">
-
-        <!-- barre de navigation -->
-        <section id=barrenav>
-            <ul class="flex-nav">
-                <li id="nav-about"><a href="#Apropos">Présentation</a></li>
-                <li id="nav-loves"><a href="#loves">J'aime</a></li>
-                <li id="nav-contact"><a href="#contact">Contact</a></li>
-            </ul>
-        </section>
 
         <h1 class="title"> Présentation</h1>
         <img class='profile' src="image/Photo profil.png" height="30%" width="30%" alt="dessin de photo de profil">
@@ -46,7 +46,7 @@
             <ul class="flex-container">
                 <ul>
                     <h3>Jouer aux cartes</h3>
-                    <ul class="flex-container">
+                    <ul class="flex-containercartes">
                         <ul>
                             <div><img src="image/Carte 1.png" height="110%" width="110%" alt="carte 5 de pique"></div>
                             <div><img src="image/Carte 2.png" height="110%" width="110%" alt="carte 4 de carreau"></div>
@@ -61,15 +61,16 @@
                 </ul>
 
                 <li>
-                    <h3> Ecouter Air</h3>
-                    <ul class="flex-container">
-                        <li>
-                            <div><img src="image/music.png" height="70%" width="70%"
-                                    alt="affiche du groupe de musique air">
-                            </div>
-                        </li>
-                    </ul>
+                    <div class=air>
+                        <h3> Ecouter Air</h3>
+                        <ul class="flex-container">
+                            <li>
+                                <div><img src="image/music.png" height="90%" width="90%"
+                                        alt="affiche du groupe de musique air"></div>
+                    </div>
                 </li>
+            </ul>
+            </li>
             </ul>
         </div>
         <div>
@@ -111,7 +112,7 @@
     </section>
     <!--  reseaux -->
     <section id=reseaux>
-        <h2 class="soustitre">Réseaux</h2>
+        <h2 class="soustitre">Où me trouver</h2>
 
         <ul class="flex-contact">
             <li>
