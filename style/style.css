@@ -28,7 +28,7 @@ body {
    padding:20px;
    text-align: center;
    background-color: rgb(235, 199, 123);
-   border-radius: 50px;
+   border-radius: 20px;
    font-family: Arial, Helvetica, sans-serif; font-weight: bold;
    box-shadow: 2px 1px 20px 1px rgb(20, 126, 158);
 }
@@ -39,7 +39,7 @@ body {
    padding:20px;
    text-align: center;
    background-color: rgb(235, 199, 123);
-   border-radius: 50px;
+   border-radius: 20px;
   font-family: Arial, Helvetica, sans-serif; font-weight: bold;
   box-shadow: 2px 1px 20px 1px rgb(20, 126, 158);
 }
@@ -50,7 +50,7 @@ body {
    padding:20px;
    text-align: center;
    background-color: rgb(235, 199, 123);
-   border-radius: 50px;
+   border-radius: 20px;
   font-family: Arial, Helvetica, sans-serif; font-weight: bold;
   box-shadow: 2px 1px 20px 1px rgb(20, 126, 158);
 }
@@ -59,10 +59,6 @@ a{text-decoration: none;}
 
 p{font-size: 18px; font-family: 'Arial', sans-serif;
 line-height: 20px; /* interligne du paragraphe */
-}
-
-img.profile{
-  float: inline-end; box-shadow: 5px 5px 30px 1px rgb(3, 49, 63);
 }
 
 #Apropos
@@ -117,7 +113,10 @@ p{color: rgb(39, 38, 38);}
 
 img.insta {border-radius: 50%;width: 100px;}
 img.behance {border-radius: 50%;width: 100px;}
-img.profile {border-radius: 50%;width: 300px;}
+img.profile {border-radius: 50%;width: 300px; float: inline-end; box-shadow: 5px 5px 30px 1px rgb(3, 49, 63);
+}
+
+  
 img.chat {border-radius: 50%;width: 100px;}
 img.poisson {border-radius: 50%;width: 100px;}
 img.ceviche {border-radius: 50%;width: 100px;}
@@ -131,16 +130,7 @@ a:hover{color: rgb(122, 35, 3);}
 
   list-style: none;
   display: flex;
-  justify-content: space-between;
-  margin: 10px;
-  
-}
-
-.flex-containercartes{
-
-  list-style: none;
-  display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   margin: 10px;
   
 }
