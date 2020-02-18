@@ -18,12 +18,13 @@ body {
   margin: 0px;
   padding-bottom: 7%;
   padding-top: 1.5%;
-  padding-left: 13%;
+  padding-left: 7%;
   background-color:rgb(95, 201, 233);
 }
-#nav-about {
-  height: 2%;
-  width: 10%;
+#nav-about,
+#nav-loves,
+#nav-contact {
+  width: 11%;
    margin-right:10%;
    margin-left: 7.5%;
    padding:2%;
@@ -32,30 +33,6 @@ body {
    border-radius: 20px;
    font-family: Arial, Helvetica, sans-serif; font-weight: bold;
    box-shadow: 2px 1px 20px 1px rgb(20, 126, 158);
-}
-#nav-loves {
-  height: 2%;
-  width: 10%;
-   margin-right:10%;
-   margin-left: 7.5%;
-   padding:2%;
-   text-align: center;
-   background-color: rgb(235, 199, 123);
-   border-radius: 20px;
-  font-family: Arial, Helvetica, sans-serif; font-weight: bold;
-  box-shadow: 2px 1px 20px 1px rgb(20, 126, 158);
-}
-#nav-contact {
-  height: 2%;
-  width: 10%;
-   margin-right:10%;
-   margin-left: 7.5%;
-   padding:2%;
-   text-align: center;
-   background-color: rgb(235, 199, 123);
-   border-radius: 20px;
-  font-family: Arial, Helvetica, sans-serif; font-weight: bold;
-  box-shadow: 2px 1px 20px 1px rgb(20, 126, 158);
 }
 
 /* mise en page du corps du texte */
