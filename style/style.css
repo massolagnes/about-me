@@ -1,32 +1,32 @@
 /* mise en page des éléments */
 body {
     background-color: rgb(2, 26, 29);
-        margin: 120px; /* enlever l'espace par défaut */
-        margin-top: -100px;
-        padding: 10px;  
+        margin: 12%; /* enlever l'espace par défaut */
+        margin-top: -10%;
+        padding: 1%;  
       }
       header,
       section,
       footer {
-        padding-top: 40px;
-        margin-top: 40px;
+        padding-top: 4%;
+        margin-top: 4%;
         border-radius: 25px;
       }
  
 /* mise en page de la barre de nav */
 #barrenav{
   margin: 0px;
-  padding-bottom: 80px;
-  padding-top: 22px;
-  padding-left: 130px;
+  padding-bottom: 7%;
+  padding-top: 1.5%;
+  padding-left: 13%;
   background-color:rgb(95, 201, 233);
 }
 #nav-about {
-  height: 18px;
-  width: 100px;
-   margin-right:100px;
-   margin-left: 75px;
-   padding:20px;
+  height: 2%;
+  width: 10%;
+   margin-right:10%;
+   margin-left: 7.5%;
+   padding:2%;
    text-align: center;
    background-color: rgb(235, 199, 123);
    border-radius: 20px;
@@ -34,10 +34,11 @@ body {
    box-shadow: 2px 1px 20px 1px rgb(20, 126, 158);
 }
 #nav-loves {
-  height: 18px;
-  width: 100px;
-   margin-right:100px;
-   padding:20px;
+  height: 2%;
+  width: 10%;
+   margin-right:10%;
+   margin-left: 7.5%;
+   padding:2%;
    text-align: center;
    background-color: rgb(235, 199, 123);
    border-radius: 20px;
@@ -45,10 +46,11 @@ body {
   box-shadow: 2px 1px 20px 1px rgb(20, 126, 158);
 }
 #nav-contact {
-  height: 18px;
-  width: 100px;
-   margin:0px;
-   padding:20px;
+  height: 2%;
+  width: 10%;
+   margin-right:10%;
+   margin-left: 7.5%;
+   padding:2%;
    text-align: center;
    background-color: rgb(235, 199, 123);
    border-radius: 20px;
@@ -57,7 +59,7 @@ body {
 }
 
 /* mise en page du corps du texte */
-a{text-decoration: none; color: #342481;
+a{text-decoration: none; color: #342481; font-size: 100%;
 }
 a:hover{color: rgb(122, 35, 3);
 }
@@ -90,17 +92,17 @@ h6 {color: chocolate; font-size: 30px; font-family: Georgia, 'Times New Roman', 
 /* mise en page des sections */
 #Apropos
 {background-color: rgb(12, 154, 197);
-  padding-left: 100px; padding-right: 100px; padding-bottom: 170px; padding-top: 10px;
+  padding-left: 10%; padding-right: 10%; padding-bottom: 8%; padding-top: 3%;
 }
 
 #loves
 {background-color: rgb(6, 111, 143);
-  padding-left: 100px; padding-right: 150px; padding-bottom: 30px;
+  padding-left: 10%; padding-right: 10%; padding-bottom: 4%;
 }
 
 #reseaux
 {background-color: rgb(6, 90, 116) ;
-padding-left: 100px; padding-right: 100px; padding-bottom: 50px;
+padding-left: 10%; padding-right: 5%; padding-bottom: 2%;
 }
 
 #contact
@@ -110,26 +112,27 @@ padding-left: 100px; padding-right: 100px; padding-bottom: 50px;
 
 
 /* mise en page des images */
+
+img.profile {border-radius: 50%;width: 40%; float: inline-end; box-shadow: 5px 5px 30px 1px rgb(3, 49, 63);
+}
+
 img.carte {height: 110%;width: 110%;
 }
-
-.air {margin-left: 150px;
+img.air {height: 70%;width: 70%
 }
 
-img.insta {border-radius: 50%;width: 100px;
+img.chat {border-radius: 50%; height:70%; width: 70%;
 }
-img.behance {border-radius: 50%;width: 100px;
+img.poisson {border-radius: 50%; height:70%; width: 50%;
 }
-img.profile {border-radius: 50%;width: 300px; float: inline-end; box-shadow: 5px 5px 30px 1px rgb(3, 49, 63);
+img.ceviche {border-radius: 50%; height:70%; width: 75%;
 }
-  
-img.chat {border-radius: 50%;width: 100px;
+img.sushi {border-radius: 50%; height:70%; width: 70%;
 }
-img.poisson {border-radius: 50%;width: 100px;
+
+img.insta {border-radius: 50%; height: 110%; width: 120%;
 }
-img.ceviche {border-radius: 50%;width: 100px;
-}
-img.sushi {border-radius: 50%;width: 100px;
+img.behance {border-radius: 50%; height: 110%; width: 50%;
 }
 
 /* mise en page des listes flexbox */
@@ -138,17 +141,15 @@ img.sushi {border-radius: 50%;width: 100px;
   list-style: none;
   display: flex;
   justify-content: space-around;
-  margin: 10px;
+  margin: 1%;
   
 }
 
 .flex-contact{
   list-style: none;
   display: flex;
-  width: 500px;
-  height: 120px;
-  padding: 0%;
-  margin: 1%;
+  justify-content: space-around;
+
 }
   
 ul { 
@@ -161,4 +162,5 @@ ul li {
 	display: block;
 	float: left;
 	padding: 0px 10px;
-	margin: 0px;}
+  margin: 0px;}
+
